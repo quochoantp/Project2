@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     while ($hien_thi = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
                         echo "<option value='{$hien_thi['MaSV']}'";
 
-                        echo ">{$hien_thi['MaSV']}</otption>";
+                        echo ">{$hien_thi['MaSV']}</option>";
                     }
                     ?>
                 </select>
